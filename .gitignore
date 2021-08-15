@@ -1,0 +1,15 @@
+.DS_Store
+.atom/
+.idea
+.packages
+.pub/
+build/
+ios/.generated/
+packages
+pubspec.lock
+*.iml
+android/res/values/strings_en.arb
+lib/generated/
+.flutter-plugins-dependencies
+.dart_tool/
+ios/Podfile.lock
