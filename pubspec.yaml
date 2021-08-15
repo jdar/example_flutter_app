@@ -8,6 +8,10 @@ environment:
 
 dependencies:
   flutter_ble_lib: ^3.0.0-beta
+  blemulator:
+     git: 
+       url: https://github.com/jdar/blemulator_flutter.git
+       ref: master
   flutter:
     sdk: flutter
 

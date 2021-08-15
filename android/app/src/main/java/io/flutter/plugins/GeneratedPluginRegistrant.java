@@ -1,6 +1,7 @@
 package io.flutter.plugins;
 
 import io.flutter.plugin.common.PluginRegistry;
+import com.polidea.blemulator.BlemulatorPlugin;
 import com.polidea.flutter_ble_lib.FlutterBleLibPlugin;
 import com.baseflow.permissionhandler.PermissionHandlerPlugin;
 
@@ -12,6 +13,7 @@ public final class GeneratedPluginRegistrant {
     if (alreadyRegisteredWith(registry)) {
       return;
     }
+    BlemulatorPlugin.registerWith(registry.registrarFor("com.polidea.blemulator.BlemulatorPlugin"));
     FlutterBleLibPlugin.registerWith(registry.registrarFor("com.polidea.flutter_ble_lib.FlutterBleLibPlugin"));
     PermissionHandlerPlugin.registerWith(registry.registrarFor("com.baseflow.permissionhandler.PermissionHandlerPlugin"));
   }
